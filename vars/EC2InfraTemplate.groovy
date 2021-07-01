@@ -10,7 +10,7 @@ pipeline {
    
         stage('Init') {
             steps {
-                bat "C:\\Users\\Administrator\\Downloads\\terraform12\\terraform.exe init"
+                bat "C:\\Users\\Administrator\\Downloads\\terraform12\\terraform.exe init  init"
             }
         }
     
